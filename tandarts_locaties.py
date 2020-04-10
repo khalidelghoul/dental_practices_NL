@@ -6,7 +6,7 @@ import time
 
 # Create all urls for each ZorgkaartNederland page with overview of dental practices: scrape_urls
 scrape_urls=[]
-for i in range(1,2):
+for i in range(1,2): #substitute second number with number of pages to be scraped
     url='https://www.zorgkaartnederland.nl/tandartsenpraktijk/pagina'+str(i)
     scrape_urls.append(url)
 
